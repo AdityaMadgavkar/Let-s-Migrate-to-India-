@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8" name="viewport" content="width=screen-width" initial-scale = "1">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-85417367-1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="home.js"></script>
+</head>
+
+<body>
+
+    <nav id="menu" class="navbar-inverse">
+
+    <div class="navbar-header">
+        <button data-toggle="collapse" data-target="#list" class="navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" onclick="backHome()">Home</a>>
+    </div>
+
+    <div class="collapse navbar-collapse" id="list">
+        <center>
+        <ul class="nav navbar-nav">
+            <li><button class="btn btn-link l_i" onclick="toEd()">Education</button></li>
+            <li><button class="btn btn-link l_i" onclick="toFe()">Festivals and Traditions</button></li>
+            <li><button class="btn btn-link l_i" onclick="toTr()">Public Transport</button></li>
+            <li><button class="btn btn-link l_i" onclick="toLa()">Languages</button></li> 
+            <li><button class="btn btn-link l_i" onclick="toHe()">Health</button></li> 
+            <li><button class="btn btn-link l_i" onclick="toFo()">Food and Drink</button></li> 
+        </ul>
+        </center>
+    </div>
+
+    </nav>
+    <br>
+    <center>
+    <h1 class="page-header" id="heading"><u>Health in India</u></h1>
+
+    <br>
+    <div class="point" data-toggle="collapse" data-target="#p1"><span>1. Yoga</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sort-desc"></i></div>
+    <div class="point_desc collapse" id="p1">
+    <ul type="arrow">
+        <li>Newer studies suggest that yoga, introduced by India, may turn on beneficial genes in some of our white blood cells, which may ultimately improve our overall immune function.</li>
+        <li>Yoga's stress management tools can also help reduce stress-related eating and other unhealthy stress-related behaviours that negatively impact the immune system.</li>
+    </ul> 
+    <br>
+        <center><span><img src="HP2.jpeg" class="pnt_img"/></span><img src="HP1.jpg" class="pnt_img"/></center>   
+    </div>
+
+    <br>
+    <div class="point" data-toggle="collapse" data-target="#p2"><span>2. Famous Institutes</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sort-desc"></i></div>
+    <div class="point_desc collapse" id="p2">
+    <ul>
+        <li>All India Institute of Medical Sciences is an infamous public hospital and medical research university based in New Delhi, India.</li>
+        <li>The institute is governed by the AIIMS Act, 1956 and operates autonomously under the Ministry of Health and Family Welfare.</li>
+    </ul>
+    <br>
+        <center><span><img src="HP3.jpg" class="pnt_img"/></span></center>   
+    </div>
+
+    <br>
+    <div class="point" data-toggle="collapse" data-target="#p3"><span>3. Ayurveda</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sort-desc"></i></div>
+    <div class="point_desc collapse" id="p3">
+    <ul>
+        <li>Ayurveda is an alternative medicine system with historical roots in the Indian subcontinent.</li>
+        <li>The theory and practice of Ayurveda is pseudoscientific. Ayurveda is heavily practiced in India and Nepal, where around 80% of the population report using it.</li>
+    </ul>
+    <br>
+        <center><span><img src="HP4.jpg" class="pnt_img"/></span></center>   
+    </div>
+
+    <br>
+    <div class="cpoint" id="chall" data-toggle="collapse" data-target="#ch"><span> Challenges</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sort-desc"></i></div>
+    <div class="ch_desc collapse" id="ch">
+    <ul type="i">
+        <li id="s1h">Pollution</li>
+        <li id="s2h">Sea levels are rising due to global warming</li>
+    </ul>
+    <br>
+        <center><button class="btn btn-success" onclick="solvehe()">Solutions</button></center>   
+    </div>
+
+    </center>
+</body>
+</html>

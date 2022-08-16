@@ -1,0 +1,94 @@
+body{
+    background-image:url(bG.jpg);
+}
+
+#menu{
+    z-index:9999;
+    top:0;
+    position:sticky;
+}
+
+.thumbnail{
+    border:solid black;
+    width:800;
+    height:120px;
+}
+
+.l_i{
+    margin-top:9.5px;
+}
+marquee{
+    background-color:blue;
+    color:yellow;
+    font-family:Arial;
+    display:inline-block;
+}
+
+#chackra{
+    margin-top:100px;
+}
+#chackra:hover{
+  width:325px;
+  height:280px;
+}
+#home_div_btn{
+    border:0px white;
+    background-color: white;
+}
+#heading{
+    color:blue;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:45px;
+}
+.point{
+    color:white;
+    background-color:blueviolet;
+    font-family:Arial;
+    font-size:30px;
+    border-radius:0%;
+    margin-left:450px;
+    margin-right: 450px;
+    text-align: left;
+    padding-left:20px;
+}
+.point_desc{
+    background-color: purple;
+    color:yellow;
+    font-family:Calibri;
+    font-size:20px;
+    padding:10px;
+    text-align:left;
+    margin-left:450px;
+    margin-right: 450px;
+}
+.pnt_img{
+    width:200px;
+    height:200px;
+    border:7px black ridge;
+    margin:8px;
+}
+.ch_desc{
+    background-color: red;
+    color:white;
+    font-family:Calibri;
+    font-size:20px;
+    padding:10px;
+    text-align:left;
+    margin-left:450px;
+    margin-right: 450px;
+}
+.cpoint{
+    color:orangered;
+    background-color:rgb(43, 207, 10);
+    font-family:Arial;
+    font-size:30px;
+    border-radius:0%;
+    margin-left:450px;
+    margin-right: 450px;
+    text-align: left;
+    padding-left:20px;
+}
+.a{
+    color:white;
+}

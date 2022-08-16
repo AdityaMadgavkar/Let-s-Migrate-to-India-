@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8" name="viewport" content="width=screen-width" initial-scale = "1">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-85417367-1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="home.js"></script>
+</head>
+
+<body>
+
+    <nav id="menu" class="navbar-inverse">
+
+    <div class="navbar-header">
+        <button data-toggle="collapse" data-target="#list" class="navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" onclick="backHome()">Home</a>>
+    </div>
+
+    <div class="collapse navbar-collapse" id="list">
+        <center>
+        <ul class="nav navbar-nav">
+            <li><button class="btn btn-link l_i" onclick="toEd()">Education</button></li>
+            <li><button class="btn btn-link l_i" onclick="toFe()">Festivals and Traditions</button></li>
+            <li><button class="btn btn-link l_i" onclick="toTr()">Public Transport</button></li>
+            <li><button class="btn btn-link l_i" onclick="toLa()">Languages</button></li> 
+            <li><button class="btn btn-link l_i" onclick="toHe()">Health</button></li> 
+            <li><button class="btn btn-link l_i" onclick="toFo()">Food and Drink</button></li> 
+        </ul>
+        </center>
+    </div>
+
+    </nav>
+    <br>
+    <center>
+    <h1 class="page-header" id="heading"><u>Languages in India</u></h1>
+
+    <br>
+    <div class="point" data-toggle="collapse" data-target="#p1"><span>1. Popularity</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sort-desc"></i></div>
+    <div class="point_desc collapse" id="p1">
+    <ul type="arrow">
+        <li>Kannada language has the second oldest written tradition of all vernacular languages of India.</li>
+        <li>Hindi is the 2nd most spoken language in the world (ahead of English and Spanish)</li>
+    </ul> 
+    <br>
+        <center><span><img src="LP1.jpg" class="pnt_img"/></span><img src="LP2.jpg" class="pnt_img"/></center>   
+    </div>
+
+    <br>
+    <div class="point" data-toggle="collapse" data-target="#p2"><span>2. Diversity</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sort-desc"></i></div>
+    <div class="point_desc collapse" id="p2">
+    <ul>
+        <li>All Indian languages fall into one of these 4 groups: Indo-Aryan, Dravidian, Sino-Tibetan and Afro-Asiatic.</li>
+        <li>India's linguistic diversity consists of 1652 mother tongues.</li>
+    </ul>
+    <br>
+        <center><span><img src="LP3.jpg" class="pnt_img"/></span></center>   
+    </div>
+
+    <br>
+    <div class="point" data-toggle="collapse" data-target="#p3"><span>3. Majority</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sort-desc"></i></div>
+    <div class="point_desc collapse" id="p3">
+    <ul>
+        <li>The Indo-European languages are majorly spoken by 78.05% of Indians.</li>
+        <li>The official language of the Union Government of the Republic of India is Hindi</li>
+    </ul>
+    <br>
+        <center><span><img src="LP4.png" class="pnt_img"/></span></center>   
+    </div>
+
+    <br>
+    <div class="cpoint" id="chall" data-toggle="collapse" data-target="#ch"><span> Challenges</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sort-desc"></i></div>
+    <div class="ch_desc collapse" id="ch">
+    <ul type="i">
+        <li id="s1l">A non-native language</li>
+    </ul>
+    <br>
+        <center><button class="btn btn-success" onclick="solvela()">Solutions</button></center>   
+    </div>
+
+    </center>
+</body>
+</html>
